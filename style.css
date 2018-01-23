@@ -1,8 +1,84 @@
 html{
 	background-color: #191919;
+    font-family: Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+     animation: 1s ease-in 0s 1 fadeIn;
 }
 
-.spinning-image{
+ 
+.header-link {
+    text-decoration: none;
+    color: white;
+}
+
+.header-link:hover .flipped180{
+    opacity: 1;
+}
+
+header div{
+    display: inline-block;
+}
+
+.container2{
+    position: relative;
+    bottom: -17px;
+    left: -57px;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flipped180{
+    transition: opacity 0.5s ease;
+    opacity: .4;
+    position: relative;
+    bottom: -20px;
+    left: -54px;
+
+
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.fipped180:hover {
+    opacity: 1;
+}
+
+
+.description{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.email-link{
+    transition: opacity 0.5s ease;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
+}
+
+
+.email-link:hover{
+    opacity: .5;
+}
+
+
+/*.spinning-image{
     width: 100px;
     height: 100px;
 
@@ -24,4 +100,4 @@ html{
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
