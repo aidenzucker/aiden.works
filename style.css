@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('Sporting_Grotesque-Regular.eot');
+    src:    url('Sporting_Grotesque-Regular.eot?#iefix') format('embedded-opentype'),
+            url('Sporting_Grotesque-Regular.woff') format('woff'),
+            url('Sporting_Grotesque-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
 	background-color: #191919;
     font-family: Arial,sans-serif;
@@ -7,7 +17,6 @@ html{
     padding: 30px;
      animation: 1s ease-in 0s 1 fadeIn;
 }
-
  
 .header-link {
     text-decoration: none;
@@ -62,6 +71,7 @@ header div{
 .description{
     margin-top: 60px;
     font-size: 20px;
+    font-family: 'Sporting Grotesque_Regular';
 }
 
 .email-link{
