@@ -14,7 +14,7 @@ html{
     -webkit-font-smoothing: antialiased;
     color: white;
     font-size: 20px;
-    padding: 30px;
+    padding: 20px;
      animation: 1s ease-in 0s 1 fadeIn;
 }
  
@@ -67,10 +67,13 @@ header div{
     opacity: 1;
 }
 
+p{
+    margin-top: 35px;
+}
 
 .description{
     margin-top: 60px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Sporting Grotesque_Regular';
 }
 
