@@ -73,7 +73,7 @@ header{
 }
 
 .who{
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 .name{
@@ -127,7 +127,7 @@ header{
 }
 
 .landing-thumbnail{
-    /*text-align: center;*/
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -181,15 +181,8 @@ p a{
     color: black;
 }
 
-.bio, .bio-image p,.links, .work-availability{
-    /*margin-bottom: 40px;*/
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    max-width: 470px;
-    padding-left: 27px;
-    padding-right: 27px;
+.bio{
+    margin-bottom: 40px;
 }
 
 .bio p{
@@ -199,8 +192,8 @@ p a{
 }
 
 .bio-image img{
-    width: 100%;
-    /*max-width: 790px;*/
+    width: 90vw;
+    max-width: 790px;
     box-shadow: 2px 2px 10px 1px #888888;
 }
 
@@ -217,12 +210,16 @@ p a{
 .info-header{
     font-family: SportingGrotesque-Regular;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 24px;
     margin: 0px;
 }
 
 .links{
     margin-bottom: 40px;
+}
+
+.links p{
+    
 }
 
 .links a{
@@ -242,7 +239,7 @@ ul{
 }
 
 #img-small{
-    /*max-width: 470px;*/
+    max-width: 470px;
 }
 
 .email-link{
@@ -332,282 +329,28 @@ ul{
 }
 
 /*60px spacing when there's enough space*/
-@media only screen  and (min-width : 840px) {
-    
-    .content{
-        max-width: none;
-        padding: 0px;
-        padding-top: 40px;
-
-        max-width: 840px;
-
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-    }
-
-    .project-container{
-        display: grid;
-        grid-template-columns: 360px 1fr;
-        grid-gap: 60px;
-        margin-bottom: 40px;
-    }
-
-    .bio, .bio-image p,.links, .work-availability{
-        padding: 0px;
-    }
-
-    .bio-content, header{
-        max-width: 840px;
-
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-    }
-
+@media only screen  and (min-width : 830px) {
     header{
-        padding: 0px;
+        padding: 60px;
         padding-top: 40px;
         padding-bottom: 0px;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 60px;
     }
 
-    .bio-content{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-column-gap: 60px;
-        grid-row-gap: 40px;
-
-        padding-top: 40px;
-    }
-
-    .bio-image{
-        grid-column-start: 3;
-        grid-column-end: 5;
-
-        grid-row-start: 1;
-        grid-row-end: 2;
-
-         margin: 0px;
-    }
-
-    .bio-image p{
-        margin: 0px;
-    }
-
-    .bio{
-        grid-column-start: 1;
-        grid-column-end: 3;
-
-        grid-row-start: 1;
-        grid-row-end: 5;
-    }
-
-    .bio p, .links p, .work-availability p{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .links{
-        grid-column-start: 3;
-        grid-column-end: 5;
-
-        grid-row-start: 2;
-        grid-row-end: 3;
-
-        margin: 0px;
-    }
-
-    .links p a{
-        margin-bottom: 10px;
-    }
-
-    .links p{
-        margin-bottom: 0px;
-    }
-
-    .work-availability{
-        grid-column-start: 3;
-        grid-column-end: 5;
-
-         margin: 0px;
-    }
-
-    header div{
-        /*border: 1px solid;*/
-    }
-
-    .name{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        display: inline-block;
-    }
-
-    .role{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        padding-bottom: 30px;
-        width: 161px;
-        display: inline-block;
-        margin-left: 180px;
-    }
-
-   /* .role-left-aligner{
-        text-align: left;
-        width: 161px;
-        float: right;
-    }*/
-
-    .menu{
-        grid-column-start: 3;
-        grid-column-end: 5;
-        text-align: right;
-    }
-
-        /*calculates space between name and role*/
-       .menu a{
+    .menu a{
         margin-right: 60px;
     }
 
-
     .name{
-       /* margin-right: 60px;*/
-    }
-
-    
-}
-
-
-/*60px spacing when there's enough space*/
-@media only screen  and (min-width : 1228px) {
-    .content{
-        max-width: none;
-        padding: 0px;
-        padding-top: 40px;
-    }
-
-    .project-container{
-        display: grid;
-        grid-template-columns: 1px 360px 1fr 1px;
-        grid-gap: 60px;
-        margin-bottom: 40px;
-    }
-
-    .landing-text-container{
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-
-
-
-    header{
-        max-width: 2000px;
-        padding-top: 40px;
-        padding-bottom: 0px;
-
-        display: grid;
-        grid-template-columns: 1px 1fr 1fr 1fr 1fr 1fr 1fr 1px;
-        grid-column-gap: 60px;
-    }
-
-    .bio-content{
-        max-width: 2000px;
-        display: grid;
-        grid-template-columns: 1px 1fr 1fr 1fr 1fr 1fr 1fr 1px;
-        grid-template-rows: auto;
-        grid-column-gap: 60px;
-
-        padding-top: 40px;
-    }
-
-    .bio-image{
-        grid-column-start: 5;
-        grid-column-end: 7;
-
-        grid-row-start: 1;
-        grid-row-end: 2;
-
-         margin: 0px;
-    }
-
-    .bio-image p{
-        margin: 0px;
-    }
-
-    .bio{
-        grid-column-start: 3;
-        grid-column-end: 5;
-
-        grid-row-start: 1;
-        grid-row-end: 5;
-    }
-
-    .bio p, .links p, .work-availability p{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .links{
-        grid-column-start: 5;
-        grid-column-end: 7;
-
-        grid-row-start: 2;
-        grid-row-end: 3;
-
-        margin: 0px;
-    }
-
-    .links p a{
-        margin-bottom: 10px;
-    }
-
-    .work-availability{
-        grid-column-start: 5;
-        grid-column-end: 7;
-        grid-row-start: 3;
-        grid-row-end: 4;
-
-         margin: 0px;
-    }
-
-    header div{
-        /*border: 1px solid;*/
-    }
-
-    .name{
-        grid-column-start: 2;
-        margin: 0px;
+        margin-right: 60px;
     }
 
     .role{
-        grid-column-start: 3;
-        grid-column-end: 5;
         padding-bottom: 30px;
-        width: auto;
-        margin: 0px;
-        width: 161px;
     }
 
-    .role-left-aligner{
-         float: none;              
-    }
-
-    .menu{
-        grid-column-start: 6;
-        grid-column-end: 8;
-        text-align: right;
-    }
-
-    .name{
-       /* margin-right: 60px;*/
+    .content{
+        padding: 60px;
+        padding-top: 50px;
     }
 
     .project-container{
@@ -618,4 +361,6 @@ ul{
         grid-gap: 60px;
     }
 }
+
+
 
