@@ -127,7 +127,7 @@ header{
 }
 
 .landing-thumbnail{
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 20px;
 }
 
@@ -333,6 +333,27 @@ ul{
 
 /*60px spacing when there's enough space*/
 @media only screen  and (min-width : 840px) {
+    
+    .content{
+        max-width: none;
+        padding: 0px;
+        padding-top: 40px;
+
+        max-width: 840px;
+
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .project-container{
+        display: grid;
+        grid-template-columns: 360px 1fr;
+        grid-gap: 60px;
+        margin-bottom: 40px;
+    }
+
     .bio, .bio-image p,.links, .work-availability{
         padding: 0px;
     }
@@ -461,23 +482,31 @@ ul{
        /* margin-right: 60px;*/
     }
 
-    .content{
-        padding: 60px;
-        padding-top: 50px;
-    }
-
-    .project-container{
-        margin-bottom: 40px;
-    }
-
-    .project-container{
-        grid-column-gap: 60px;
-    }
+    
 }
 
 
 /*60px spacing when there's enough space*/
 @media only screen  and (min-width : 1228px) {
+    .content{
+        max-width: none;
+        padding: 0px;
+        padding-top: 40px;
+    }
+
+    .project-container{
+        display: grid;
+        grid-template-columns: 1px 360px 1fr 1px;
+        grid-gap: 60px;
+        margin-bottom: 40px;
+    }
+
+    .landing-text-container{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+
 
     header{
         max-width: 2000px;
@@ -485,14 +514,14 @@ ul{
         padding-bottom: 0px;
 
         display: grid;
-        grid-template-columns: .1fr 1fr 1fr 1fr 1fr 1fr 1fr .1fr;
+        grid-template-columns: 1px 1fr 1fr 1fr 1fr 1fr 1fr 1px;
         grid-column-gap: 60px;
     }
 
     .bio-content{
         max-width: 2000px;
         display: grid;
-        grid-template-columns: .1fr 1fr 1fr 1fr 1fr 1fr 1fr .1fr;
+        grid-template-columns: 1px 1fr 1fr 1fr 1fr 1fr 1fr 1px;
         grid-template-rows: auto;
         grid-column-gap: 60px;
 
@@ -579,11 +608,6 @@ ul{
 
     .name{
        /* margin-right: 60px;*/
-    }
-
-    .content{
-        padding: 60px;
-        padding-top: 50px;
     }
 
     .project-container{
