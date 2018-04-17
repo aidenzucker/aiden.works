@@ -36,7 +36,9 @@ html{
     font-family: 'UntitledSansTest-Regular',Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
      animation: 1s ease-in 0s 1 fadeIn;
+}
 
+#grey-background{
      background-color: #EDEDED;
 }
 
@@ -123,7 +125,7 @@ header{
 }
 
 .project-container{
-    margin-bottom: 20px;
+    padding-top: 40px;
 }
 
 .landing-thumbnail{
@@ -261,6 +263,18 @@ ul{
 
 /* //////////PROJECT PAGE/////////////*/
 
+.project-meta-wrapper{
+    background-color: #EDEDED;
+    width: 100vw;
+
+    padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
 .project-meta h1{
     font-family: SportingGrotesque-Regular;
     font-weight: normal;
@@ -274,6 +288,8 @@ ul{
     font-size: 32px;
     margin-top: 0px;
     margin-bottom: 40px;
+
+    max-width: 840px;
 }
 
 .project-story img{
@@ -310,7 +326,7 @@ ul{
 
 
 /*CSS Rules for screens wider than 638px */
-@media only screen  and (min-width : 700px) {
+@media only screen  and (min-width : 715px) {
     .project-container{
         display: grid;
         grid-template-columns: 360px 1fr;
@@ -327,6 +343,11 @@ ul{
         float: right;
     }
 
+    .menu a{
+        margin-right: 0px;
+        margin-left: 60px;
+    }
+
     .role{
         width: 165px;
     }
@@ -338,21 +359,11 @@ ul{
     .content{
         max-width: none;
         padding: 0px;
-        padding-top: 40px;
-
-        max-width: 840px;
 
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
-    }
-
-    .project-container{
-        display: grid;
-        grid-template-columns: 360px 1fr;
-        grid-gap: 60px;
-        margin-bottom: 40px;
     }
 
     .bio, .bio-image p,.links, .work-availability{
@@ -376,6 +387,53 @@ ul{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 60px;
+    }
+
+    .project-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 60px;
+    }
+
+    .project-story{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 60px;
+
+        max-width: 840px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .project-story img{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .project-meta-wrapper{
+        position: absolute;
+    }
+
+    .project-meta {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 60px;
+        grid-row-gap: 0px;
+
+
+        max-width: 840px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .project-meta h1, .project-meta h2{
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 
     .bio-content{
@@ -461,28 +519,11 @@ ul{
         margin-left: 180px;
     }
 
-   /* .role-left-aligner{
-        text-align: left;
-        width: 161px;
-        float: right;
-    }*/
-
     .menu{
         grid-column-start: 3;
         grid-column-end: 5;
         text-align: right;
     }
-
-        /*calculates space between name and role*/
-       .menu a{
-        margin-right: 60px;
-    }
-
-
-    .name{
-       /* margin-right: 60px;*/
-    }
-
     
 }
 
@@ -495,9 +536,16 @@ ul{
         grid-column-gap: 60px;
     }
 
+    .project-meta-wrapper{
+        display: grid;
+        grid-template-columns: 1px 1fr 1fr 1fr 1fr 1fr 1fr 1px;
+        grid-column-gap: 60px;
+    }
+
     .project-meta {
-        grid-column-start: 2;
-        grid-column-end: 7;
+        display: inline-block;
+        grid-column-start: 3;
+        grid-column-end: 6;
     }
 
     .project-story h2{
@@ -519,22 +567,16 @@ ul{
         grid-column-end: 6;
      }
 
-
-
-
-
-
     .content{
         max-width: none;
         padding: 0px;
-        padding-top: 40px;
+        /*padding-top: 40px;*/
     }
 
     .project-container{
         display: grid;
         grid-template-columns: 1px 360px 1fr 1px;
         grid-gap: 60px;
-        margin-bottom: 40px;
     }
 
     .landing-text-container{
@@ -635,21 +677,13 @@ ul{
     }
 
     .menu{
-        grid-column-start: 6;
+        grid-column-start: 5;
         grid-column-end: 8;
         text-align: right;
     }
 
     .name{
        /* margin-right: 60px;*/
-    }
-
-    .project-container{
-        margin-bottom: 40px;
-    }
-
-    .project-container{
-        grid-gap: 60px;
     }
 }
 
