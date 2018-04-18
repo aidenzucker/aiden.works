@@ -1,27 +1,32 @@
 @font-face {
     font-family: 'Sporting Grotesque_Regular';
-    src:    url('Sporting_Grotesque-Regular.eot');
-    src:    url('Sporting_Grotesque-Regular.eot?#iefix') format('embedded-opentype'),
-            url('Sporting_Grotesque-Regular.woff') format('woff'),
-            url('Sporting_Grotesque-Regular.woff2') format('woff2');
+    src:    url('../fonts/Sporting_Grotesque-Regular.eot');
+    src:    url('../fonts/Sporting_Grotesque-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Sporting_Grotesque-Regular.woff') format('woff'),
+            url('../fonts/Sporting_Grotesque-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'UntitledSansTest-Light';
-    src:    url('UntitledSansTest-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'UntitledSans';
+  src: url('../fonts/UntitledSansWeb-Regular.eot');
+  src: url('../fonts/UntitledSansWeb-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/UntitledSansWeb-Regular.woff2') format('woff2'), 
+       url('../fonts/UntitledSansWeb-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'UntitledSansTest-Regular';
-    src:    url('UntitledSansTest-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'UntitledSans';
+  src: url('../fonts/UntitledSansWeb-RegularItalic.eot');
+  src: url('../fonts/UntitledSansWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/UntitledSansWeb-RegularItalic.woff2') format('woff2'), 
+       url('../fonts/UntitledSansWeb-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
 }
-
 
 @keyframes fadeIn {
   0% {
@@ -33,7 +38,8 @@
 }
 
 html{
-    font-family: 'UntitledSansTest-Regular',Arial,sans-serif;
+    font-family: 'UntitledSans',serif,sans-serif;
+    font-style: normal;
     -webkit-font-smoothing: antialiased;
      animation: 1s ease-in 0s 1 fadeIn;
 }
@@ -143,7 +149,7 @@ header{
 }
 
 .project-title{
-    font-family: SportingGrotesque-Regular;
+    font-family: 'SportingGrotesque-Regular';
     font-size: 31px;
 
     /*margin-top: 20px;*/
