@@ -31,7 +31,7 @@
 	<body>	
 		<div class="header-wrapper">
 			<header>
-				<div class="who">
+				<!-- <div class="who"> -->
 					<a href="/" class="name">
 						Aiden Zucker
 					</a>
@@ -39,20 +39,20 @@
 					<div class="role">
 						Product Designer,<br>Friend
 					</div>
-				</div>
+				<!-- </div> -->
 
 				<div class="menu">	
-					<a href="/">
-						<img src="../../img/arrow.png">
+					<a href="/" id="selected-menu-item">
+						<img src="../../img/arrow.png" id="down-arrow">
 						Work
 					</a>
-					<a href="/info" class="arrow-right">
-						<img src="../../img/arrow.png">
+					<a href="/info" id="unselected-menu-item">
+						<img src="../../img/arrow.png" id="right-arrow">
 						Info
 					</a>
-					<a href="/Resume_AidenZucker.pdf" style="margin-right:0px;" target="blank" class="menu-resume">
+					<a href="/Resume_AidenZucker.pdf" style="margin-right:0px;" target="blank" id="unselected-menu-item">
 						Resume
-						<img src="../../img/arrow.png">
+						<img src="../../img/arrow.png" id="resume-arrow">
 					</a>
 
 				</div>
@@ -61,7 +61,8 @@
 
 		<div class="content">
 
-			<div class="project-container">
+			<div class="project-container-wrapper">
+			<div class="project-container" id="project-page">
 				<div class="landing-text-container">
 					<div class="project-title">
 						MURAL
@@ -79,12 +80,13 @@
 					</div>
 				</div>
 
-				<div class="landing-image">
+				<div class="landing-image" id="project-page">
 					<video class="video" autoplay loop>
 						<source src="../../img/mural-demo.mp4">
 					</video>
 				</div>
 			</div>
+		</div>
 
 			<div class="project-story">
 

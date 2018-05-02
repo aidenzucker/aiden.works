@@ -37,39 +37,66 @@
 					</a>
 
 					<div class="role">
-						Product Designer, Friend
+						Product Designer,<br>Friend
 					</div>
 				<!-- </div> -->
 
-				<div class="menu">
-					<a href="/"id="selected">Work</a>
-					<a href="/info">Info</a>
-					<a href="/Resume_AidenZucker.pdf" target="blank">Resume</a>
+				<div class="menu">	
+					<a href="/" id="selected-menu-item">
+						<img src="../../img/arrow.png" id="down-arrow">
+						Work
+					</a>
+					<a href="/info" id="unselected-menu-item">
+						<img src="../../img/arrow.png" id="right-arrow">
+						Info
+					</a>
+					<a href="/Resume_AidenZucker.pdf" style="margin-right:0px;" target="blank" id="unselected-menu-item">
+						Resume
+						<img src="../../img/arrow.png" id="resume-arrow">
+					</a>
+
 				</div>
 			</header>
 		</div>
 
 		<div class="content">
 
-			<div class="project-meta-wrapper">
-				<div class="project-meta">
-					<h1>Serendipity.how</h1>
-					<h2>An experimental website and tool for thinking about serendipity in a new way</h2>
+			<div class="project-container-wrapper">
+			<div class="project-container" id="project-page">
+				<div class="landing-text-container">
+					<div class="project-title">
+						Serendipity.how
+					</div>
+
+					<div class="project-description">
+						<div class="project-blurb">
+							An experimental website and tool for thinking about serendipity in a new way 
+						</div>
+
+						<div class="project-tags">
+							Web Design, Front-end, Speculative
+						</div>
+
+					</div>
+				</div>
+
+				<div class="landing-image" id="project-page">
+						<img src="cover-photo-serendipity.jpg">
 				</div>
 			</div>
+		</div>
 
 			<div class="project-story">
 
-				<img src="cover-photo-serendipity.jpg">
-
+				<!-- <img src="../../img/mural-demo-5.gif" alt="MURAL demo gif"> -->
 
 				<!-- <video class="video" autoplay loop>
 						<source src="../../img/mural-demo.mp4">
 				</video> -->
 
-				<h3>Why</h3>
+				<h3>Intro</h3>
 
-				<p>How might creative problem solvers think differently about innovation and creativity? Inspired by <a href="http://www.nytimes.com/2016/01/03/opinion/how-to-cultivate-the-art-of-serendipity.html" target="_blank">Pagan Kennedy's article</a>, this project aims to reframe serendipity as something that you can cultivate and allow users to experience the joy of unexpected discoveries so they can seek it out in real life. To make the message as accessible and shareable as possible, it's delivered in the form of a website:</p>
+				<p>Inspired by <a href="http://www.nytimes.com/2016/01/03/opinion/how-to-cultivate-the-art-of-serendipity.html" target="_blank">Pagan Kennedy's article</a>, this speculative website aims to reframe serendipity as something that you can cultivate in your life. Its goal is not only to educate, but also to allow people to experience the joy of making unexpected discoveries. </p>
 
 				<div class="big-link">
 					<a href="http://serendipity.how" target="_blank">serendipity.how</a>
@@ -79,27 +106,27 @@
 
 				<p>The site architecture is separated into <i>Learn</i> and <i>Juxtagraph</i> to reflect the two goals of the project.</p>
 
-				<img src="site-map.png">
+				<img src="site-map.png" id="site-map">
 
 				<p>The animated home page is designed to subconciously introduce the concept of overlapping objects and ideas.</p>
 
-				<img src="home-responsive.jpg">
+				<img src="home-responsive.jpg" id="serendipity-mockups">
 
 				<p>Magritte and Dalí serve as formal precedents for using juxtaposition in service of evoking ideas and emotions.</p>
 
-				<img src="surrealist-placeholder.png">
+				<img src="surrealist-placeholder.png" id="align-with-text">
 
-				<div class="caption">
-					<strong>Salvador Dalí</strong>, <i>Lobster Telephone</i> (1936) and <strong>René Magritte</strong>, <i>Key to Dreams</i> (1935)
+				<div class="caption" id="project-caption">
+					Dalí's <i>Lobster Telephone</i>, 1936 and  Magritte's <i>Key to Dreams</i>, 1935
 				</div>
 
 				<p>Responsive CSS rules adapt content to all screen sizes.</p>
 
-				<img src="responsive-xray.jpg">
+				<img src="responsive-xray.jpg" id="serendipity-mockups">
 
 				<p>The purpose of the second section of the site is to show people the joy of unexpected discoveries.</p>
 
-				<img src="juxtagraph-responsive.jpg">
+				<img src="juxtagraph-responsive.jpg" id="serendipity-mockups">
 
 				<p>Once a juxtagraph is made, it's added to a public gallery of every juxtagraph ever made on the site.</p>
 
@@ -107,17 +134,17 @@
 
 				<p>The randomized image queue currently has 111 images, chosen for the singularity of the image, multiple or metaphorical interpretations and how aesthetically or emotionally compelling the image is.</p>
 
-				<div class="juxtagraph-circle">
+				<!-- <div class="juxtagraph-circle">
 					<img src="juxtagraph-circle.jpg">
 
 					<div class="big-link">
 						<a href="http://serendipity.how/juxtagraph" target="_blank">Make a juxtagraph</a>
 					</div>
-				</div>
+				</div> -->
 
-				<img src="poster-mockup.jpg">
+				<img src="poster-mockup.jpg" id="poster-mockup">
 
-				<img src="poster-mockup-closeup.jpg">
+				<!-- <img src="poster-mockup-closeup.jpg"> -->
 
 				<p>Serendipity.how was concieved of, designed and built in 9 weeks as the capstone of my BFA in Communication Design at Washington University in St. Louis.</p>
 
