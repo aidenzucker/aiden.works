@@ -270,7 +270,7 @@ p a{
 }
 
 .caption{
-    font-size: 16px;
+    font-size: 14px;
     opacity: .5;
     margin-top: -5px;
 }
@@ -668,9 +668,11 @@ footer {
 
     .links{
         grid-column-start: 3;
+        margin-top: 22px;
     }
     .work-availability{
         grid-column-start: 3;
+        margin-top: 28px;
     }
     .bio-image{
         grid-row-start: 1;
@@ -679,7 +681,7 @@ footer {
     }
 
     .bio-image img{
-        padding-top: 15px;
+        padding-top: 7px;
     }
 
     .info-title{
@@ -688,7 +690,7 @@ footer {
 
     .bio-image, .links, .work-availability{
         max-width: 371px;
-        margin-top: -10px;
+        /*margin-top: -10px;*/
     }
 
     /*
