@@ -103,7 +103,7 @@ header{
     vertical-align: top;
     padding-bottom: var(--spacing-padding);
     display: inline-block;
-    margin-top: -4px; 
+    margin-top: -11px; 
 }
 
 .menu a{
@@ -183,7 +183,7 @@ header{
 }
 
 .project-title{
-    font-size: 26px;
+    /*font-size: 26px;*/
     width: 203px;
     margin-bottom: var(--spacing-padding);
 }
@@ -500,6 +500,17 @@ footer {
     color: grey;
 }
 
+li a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    color: black;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
 
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
@@ -508,7 +519,7 @@ footer {
     }
 
     header{
-        height: 155px;
+        height: 157px;
     }
 
     .menu{
@@ -577,9 +588,10 @@ footer {
     }
 
     .project-container:hover {
-         padding: 60px;
-         padding-left: 0px;
+         /*padding: 60px;*/
+         padding-left: 30px;
          padding-right: 0px;
+         background-color: #F9F9F9;
     }
     
     .landing-image{
