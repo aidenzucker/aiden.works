@@ -85,7 +85,7 @@ header{
     vertical-align: top;
     margin-right: 31px;
 
-    padding-bottom: var(--spacing-padding);
+    padding-bottom: calc(var(--spacing-padding) - 12px);
 }
 
 .role{
@@ -183,9 +183,9 @@ header{
 }
 
 .project-title{
-    /*font-size: 26px;*/
+    font-size: 26px;
     width: 203px;
-    margin-bottom: var(--spacing-padding);
+    margin-bottom: calc(var(--spacing-padding) - 10px);
 }
 
 .project-description{
@@ -321,6 +321,7 @@ p a{
     padding: var(--spacing-padding);
     padding-top: 0px;
     padding-bottom: 0px;
+    z-index: 101;
 }
 
 .project-story h3{
@@ -329,6 +330,16 @@ p a{
 
 .project-story p{
    margin-bottom: var(--spacing-padding);
+   z-index: 2;
+}
+
+.overview img{
+    max-width: 350px;
+    margin-top: 40px;
+}
+
+.overview{
+    margin-top: 80px;
 }
 
 h3{
@@ -427,6 +438,10 @@ iframe{
     right: 0;
     margin-left: auto;
     margin-right: auto;*/
+}
+
+.overview img{
+    max-width: 350px;
 }
 
 #first-post{
@@ -542,6 +557,7 @@ li {
         vertical-align: top;
         width: 191px;
         margin-right: var(--spacing-padding);
+        font-size: 19px;
     }
 
     .landing-image{
@@ -731,6 +747,11 @@ li {
         max-width: calc(100vw - 314px);
     }
 
+    .overview img{
+        width: 350px;
+        margin-bottom: -40px;
+    }
+
     #poster-mockup{
         margin-left:-52px
     }
@@ -760,9 +781,10 @@ li {
 /*turns landing image on for project pages*/
 #project-page {
     opacity: 1;
-    padding: 60px;
+    /*padding: 60px;*/
     padding-left: 0px;
     padding-right: 0px;
+    background-color: white;
 }
 
 
