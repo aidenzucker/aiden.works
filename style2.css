@@ -526,6 +526,13 @@ li {
     margin-bottom: 20px;
 }
 
+.more-projects h3{
+    margin: 0px;
+    margin-left: var(--spacing-padding);
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
 
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
