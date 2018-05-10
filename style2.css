@@ -258,6 +258,32 @@ p a{
     padding-right: var(--spacing-padding);
 }
 
+footer {
+    background-color: #F0F0F0;
+
+    padding-left: var(--spacing-padding);
+    padding-right: var(--spacing-padding);
+    margin-top: var(--spacing-padding);
+    padding-top: var(--spacing-padding);
+    padding-bottom: 15px;
+}
+
+footer {
+    color: var(--grey-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer a{
+     color: var(--grey-color);
+     border-bottom: 1px solid var(--grey-color);
+     text-decoration: none;
+}
+
+.philosophy{
+    font-style: italic;
+}
+
 .bio-content p{
     font-size: 19px;
     line-height: 30px;
@@ -280,11 +306,24 @@ p a{
     margin-bottom: 40px;
 }
 
-.updated{
+.updated {
     opacity: .5;
+    /*font-size: 14px;*/
     margin-bottom: 0px;
     margin-top: -10px;
 }
+
+h4{
+    font-size: 19px;
+    font-weight: normal;
+    color: var(--grey-color);
+}
+
+.bonus-content{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
 
 .links p a{
     margin-right: 20px;
@@ -395,8 +434,8 @@ h3{
     width: 1000px;
     height: 563px;
 
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /*margin-top: 100px;
+    margin-bottom: 100px;*/
 
     margin-bottom: var(--spacing-padding);
 }
@@ -460,6 +499,7 @@ iframe{
 
 .post-wrapper img{
     margin: 0px;
+    max-height:95vh;
 }
 
 .post-wrapper a{
@@ -506,13 +546,6 @@ iframe{
     position: relative;
     top: -14px;
     left: 5px;
-}
-
-footer {
-    padding: 10px;
-    padding-left: 0px;
-    font-size: 14px;
-    color: grey;
 }
 
 li a{
@@ -588,12 +621,26 @@ li {
 
     .bio-content{
         display: grid;
-        grid-template-columns: 235px 371px;
+        grid-template-columns: 235px 365px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 235px 370px;
+        grid-column-gap: 45px
+    }
+
+    .license, .philosophy{
+        grid-column-start: 2;
     }
 
     .bio-content p{
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .updated {
+        /*font-size: 14px !important;*/
     }
 
     .bio{
@@ -620,6 +667,7 @@ li {
          padding-left: 30px;
          padding-right: 0px;
          background-color: #F9F9F9;
+         /*background-color: #F0F0F0;*/
     }
     
     .landing-image{
@@ -698,9 +746,24 @@ li {
 
     .bio-content{
         display: grid;
-        grid-template-columns: 184px 371px 1fr;
+        grid-template-columns: 184px 365px 1fr;
         grid-column-gap: 50px;
         padding-top: var(--spacing-padding);
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 184px 370px 1fr;
+        grid-column-gap: 45px
+    }
+
+    .license, .philosophy{
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+
+    .philosophy{
+        margin-top: 72px;
     }
 
     .bio{
@@ -733,7 +796,7 @@ li {
     }
 
     .bio-image, .links, .work-availability{
-        max-width: 371px;
+        max-width: 365px;
         /*margin-top: -10px;*/
     }
 
