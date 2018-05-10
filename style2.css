@@ -566,6 +566,10 @@ li {
     border-bottom: 1px solid lightgrey;
 }
 
+#max-width-360 img{
+    max-width: 360px;
+}
+
 
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
