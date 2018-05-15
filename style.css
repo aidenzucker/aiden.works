@@ -492,6 +492,28 @@ iframe{
     text-indent: -0.3em;
 }
 
+#big-project-title{
+    font-size: 26px;
+}
+
+.github-flow{
+    width: calc(100vw - 80px);
+    /*margin-left: -40px;*/
+
+    display: grid;
+    grid-template-columns: 391fr 40fr 499fr 40fr 391fr;
+    grid-gap:20px;
+    align-items: center;
+}
+
+#vertically-center{
+    vertical-align: middle;
+    top: 50%;
+}
+
+.github-flow img{
+    width: 100%;
+}
 
 @media only screen  and (max-width : 1300px) {
     .video-container{
@@ -662,6 +684,11 @@ li {
         grid-template-columns: 610px 1fr;
         grid-gap: var(--spacing-padding);
         grid-row-gap: 0px;
+    }
+
+    #responsive-screens{
+        max-width: 870px;
+        margin-left: -160px;
     }
 
     /*
