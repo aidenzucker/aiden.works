@@ -46,7 +46,7 @@ html{
     font-style: normal;
 
     font-size: 19px;
-    line-height: 32px;
+    line-height: 30px;
 
     -webkit-font-smoothing: antialiased;
      animation: 1s ease-in 0s 1 fadeIn;
@@ -355,7 +355,7 @@ h4{
 /* //////////PROJECT PAGE/////////////*/
 
 .project-story{
-    max-width: 550px;
+    max-width: 520px;
     margin: 0;
     padding: var(--spacing-padding);
     padding-top: 0px;
@@ -447,51 +447,6 @@ iframe{
     width: 100%;
     height: 100%;
 }
-
-.case-studies-intro{
-    background-color: #F0F0F0;
-    padding: 40px;
- /*   margin-bottom: 40px;*/
-}
-
-.case-studies-intro h3, .case-studies-intro p{
-    padding: 0px;
-    margin: 0px;
-}
-
-.case-study{
-    position: relative;
-}
-
-.case-study h5{
-    margin: 0px;
-    margin-top: 20px;
-    padding: 0px;
-
-    font-weight: normal;
-    font-size: 19px;
-    color: var(--grey-color);
-
-    /*border-bottom: 1px solid var(--grey-color);
-    display: inline-block;*/
-}
-
-.case-study h6{
-    margin: 0px;
-    padding: 0px;
-    font-weight: normal;
-    position: absolute;
-    top: 43px;
-    left: -30px;
-
-    font-size: 16px;
-    color: var(--grey-color);
-}
-
-#hang-quote{
-    text-indent: -0.3em;
-}
-
 
 @media only screen  and (max-width : 1300px) {
     .video-container{
@@ -858,7 +813,7 @@ li {
         grid-template-columns: 184px 520px 1fr;
         grid-column-gap: 50px;*/
         margin-left: 234px;
-        max-width: 550px;
+        max-width: 520px;
         /*padding-top: var(--spacing-padding);*/
     }
 
@@ -872,8 +827,8 @@ li {
     }
 
     #full-width-image{
-        margin-left: -221px;
-        max-width: 91vw;
+        margin-left: -184px;
+        max-width: 90vw;
     }
 
     .overview img{
