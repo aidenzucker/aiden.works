@@ -268,7 +268,7 @@ p a{
 }
 
 footer {
-    background-color: #F0F0F0;
+    background-color: #F5F5F5;
 
     padding-left: var(--spacing-padding);
     padding-right: var(--spacing-padding);
@@ -458,7 +458,7 @@ iframe{
 }
 
 .case-studies-intro{
-    background-color: #F0F0F0;
+    background-color: #F5F5F5;
     padding: 40px;
  /*   margin-bottom: 40px;*/
 }
@@ -657,7 +657,7 @@ li {
 
     .role{
         padding-bottom: var(--spacing-padding);
-    }
+     }
 
     .project-title{
         vertical-align: top;
@@ -737,8 +737,13 @@ li {
          /*padding: 60px;*/
          padding-left: 30px;
          padding-right: 0px;
-         background-color: #F9F9F9;
+         background-color: #F5F5F5;
+         
          /*background-color: #F0F0F0;*/
+    }
+
+    #first-project:hover{
+        border-top: 1px solid lightgrey;
     }
     
     .landing-image{
