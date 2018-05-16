@@ -120,14 +120,14 @@ header{
 }
 
 .menu a img{
-    width: 13px;
+    width: 11px;
 }
 
 #right-arrow{
     opacity: 0;
     transform: rotate(-90deg);
     margin-right: 3px;
-    margin-left: -22px;
+    margin-left: -18px;
 }
 
 #unselected-menu-item:hover > #right-arrow{
@@ -159,7 +159,7 @@ header{
 #resume-arrow{
     opacity: 0;
     transform: rotate(-135deg);
-    left: 95px;
+    left: 93px;
     position: relative;
     margin-left: -18px;
 }
@@ -192,9 +192,14 @@ header{
 }
 
 .project-title{
-    font-size: 26px;
-    width: 203px;
+    /*font-size: 26px;*/
     margin-bottom: calc(var(--spacing-padding) - 10px);
+
+    border-bottom: 1px solid black;
+
+    margin-right: 62px;
+    vertical-align: top;
+    line-height: 24px;
 }
 
 .project-description{
@@ -664,6 +669,8 @@ li {
         width: 191px;
         margin-right: var(--spacing-padding);
         font-size: 19px;
+
+        border-bottom: none;
     }
 
     .landing-image{
