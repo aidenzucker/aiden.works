@@ -73,41 +73,47 @@ body{
 
 header{
     text-align: left;
-    margin: var(--spacing-padding);
-    margin-bottom: 0px;
-    border-bottom: 1px solid lightgrey;
+    padding: var(--spacing-padding);
+    padding-bottom: 0px;
+}
+
+.header-wrapper{
+    background-color: #F5F5F5;
 }
 
 .name{
     text-decoration: none;
     color: black;
     display: inline-block;
-    vertical-align: top;
-    margin-right: 31px;
 
-    padding-bottom: calc(var(--spacing-padding) - 12px);
+    padding-bottom: 20px;
 }
 
 .role{
     color: var(--grey-color);
     display: inline-block;
-    padding-bottom: var(--spacing-padding);
+    padding-bottom: 20px;
     width: 162px;
+    line-height: 24px;
 }
 
 .who{
     display: inline-block;
+    width: 191px;
+    margin-right: var(--spacing-padding);
+    /*border: 1px solid blue;*/
 }
 
 .menu{
     vertical-align: top;
     padding-bottom: var(--spacing-padding);
     display: inline-block;
-    margin-top: -11px; 
 }
 
 .menu a{
     text-decoration: none;
+    border-bottom: 1px solid var(--grey-color);
+
     margin-right: 50px;
     color: var(--grey-color);
     opacity: 1;
@@ -153,6 +159,9 @@ header{
 #resume-arrow{
     opacity: 0;
     transform: rotate(-135deg);
+    left: 95px;
+    position: relative;
+    margin-left: -18px;
 }
 
 #unselected-menu-item:hover > #resume-arrow{
@@ -504,6 +513,8 @@ iframe{
     grid-template-columns: 391fr 40fr 499fr 40fr 391fr;
     grid-gap:20px;
     align-items: center;
+
+    margin-top: 10px;
 }
 
 #vertically-center{
@@ -644,24 +655,8 @@ li {
         --spacing-padding: 40px;
     }
 
-    header{
-        height: 157px;
-    }
-
-    .menu{
-        width: 356px;
-        float: none;
-        margin-left: 237px;
-        display: block;
-    }
-
-    .who{
-        width: 100%;
-    }
-
-    .name{
-        width: 191px;
-        margin-right: var(--spacing-padding);
+    .role{
+        padding-bottom: var(--spacing-padding);
     }
 
     .project-title{
@@ -801,7 +796,7 @@ li {
         grid-column-start: 2;
     }
 
-    .menu, .role, .project-description{
+    .menu, .project-description{
         width: 356px;
         float: none;
     }
@@ -810,7 +805,7 @@ li {
         display: inline-block;
     }
 
-    .project-title, .name{
+    .project-title, {
         width: 191px;
         margin-right: var(--spacing-padding);
     }
