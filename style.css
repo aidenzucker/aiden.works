@@ -539,6 +539,7 @@ iframe{
     padding: var(--spacing-padding);
 
     position: relative;
+    margin-bottom: var(--spacing-padding);
 }
 
 .before-after img{
