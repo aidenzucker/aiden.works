@@ -222,7 +222,7 @@ header{
 }
 
 .landing-image video, .landing-image img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .big-link{
@@ -299,9 +299,10 @@ footer a{
 }
 
 .bio-content p{
-    font-size: 19px;
-    line-height: 30px;
-    /*margin-top: 0px;*/
+    /*font-size: 19px;
+    line-height: 30px;*/
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .bio-image img{
@@ -491,12 +492,12 @@ iframe{
 }
 
 .case-study h6{
+    position: absolute;
+    top: 4px;
+
     margin: 0px;
     padding: 0px;
     font-weight: normal;
-    position: absolute;
-    top: 43px;
-    left: -30px;
 
     font-size: 16px;
     color: var(--grey-color);
@@ -530,6 +531,48 @@ iframe{
 .github-flow img{
     width: 100%;
 }
+
+.before-after{
+    background-color: black;
+    color: white;
+
+    padding: var(--spacing-padding);
+
+    position: relative;
+}
+
+.before-after img{
+    display: inline-block;
+    width: 100%;
+    margin: 0px !important;
+    grid-row-start: 2;
+}
+
+.before-after p{
+    grid-row-start: 1;
+    grid-column-start: 1!important;
+    margin-bottom: 10px;
+}
+
+#first-column{
+    grid-column-start: 2!important;
+}
+
+#old-loading{
+    position: absolute;
+    width: 19%;
+    left: 38%;
+    top: 29%;
+}
+
+#new-loading{
+    position: absolute;
+    width: 18%;
+    right: 40%;
+    top: 79%;
+}
+
+
 
 @media only screen  and (max-width : 1300px) {
     .video-container{
@@ -664,6 +707,58 @@ li {
         padding-bottom: var(--spacing-padding);
      }
 
+     .case-study h6{
+        top: 43px;
+        left: -30px;
+        bottom: 0px;
+    }
+
+    .before-after{
+        background-color: black;
+        color: white;
+
+        width: calc(100vw - 160px);
+        padding: var(--spacing-padding);
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: var(--spacing-padding);
+        grid-row-gap: 0px;
+
+        position: relative;
+    }
+
+    .before-after img{
+        display: inline-block;
+        width: 100%;
+        margin: 0px !important;
+        grid-row-start: 2;
+    }
+
+    .before-after p{
+        grid-row-start: 1;
+        grid-column-start: 1!important;
+        margin-bottom: 10px;
+    }
+
+    #first-column{
+        grid-column-start: 2!important;
+    }
+
+    #old-loading{
+        position: absolute;
+        width: 12%;
+        left: 19%;
+        top: 37%;
+    }
+
+    #new-loading{
+        position: absolute;
+        width: 11%;
+        right: 19.5%;
+        top: 52%;
+    }
+
     .project-title{
         vertical-align: top;
         width: 191px;
@@ -678,7 +773,7 @@ li {
         /*display: none;*/
         grid-column-start: 1;
         grid-column-end: 3;
-        width: 100%
+        width: auto;
     }
 
      .project-container{
@@ -712,11 +807,6 @@ li {
         grid-column-start: 2;
     }
 
-    .bio-content p{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
     .updated {
         /*font-size: 14px !important;*/
     }
@@ -734,6 +824,10 @@ li {
 
 /*Images in same row*/
 @media only screen  and (min-width : 950px) {
+
+    .before-after{
+        margin-left: -234px;
+    }
 
     .project-container{
         height: 105px;
