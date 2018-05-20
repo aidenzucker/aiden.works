@@ -523,7 +523,7 @@ iframe{
 
 .github-flow p{
     
-    margin-bottom: 0px !important;
+    margin-bottom: 5px !important;
     color: var(--grey-color);
     font-size: 16px;
     line-height: 20px;
@@ -567,7 +567,7 @@ iframe{
     margin-bottom: 10px;
 }
 
-#first-column{
+#second-column{
     grid-column-start: 2!important;
 }
 
@@ -811,7 +811,7 @@ li {
         margin-bottom: 10px;
     }
 
-    #first-column{
+    #second-column{
         grid-column-start: 2!important;
     }
 
