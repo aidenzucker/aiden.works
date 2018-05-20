@@ -269,7 +269,8 @@ p a{
     font-size: 24px;
 
     margin-bottom: 10px;
-    padding-top: var(--spacing-padding);
+
+    margin-top: 40px;
 }
 
 .bio-content{
@@ -308,6 +309,10 @@ footer a{
     line-height: 30px;*/
     font-size: 16px;
     line-height: 24px;
+}
+
+.bio-image{
+    line-height: 0px;
 }
 
 .bio-image img{
@@ -730,6 +735,10 @@ li {
         margin-top: 10px;
     }
 
+    .info-title{
+        margin-top: 0px;
+    }
+
     .github-flow img{
         width: 100%;
         grid-row-start: 2;
@@ -859,13 +868,15 @@ li {
 
     .bio-content{
         display: grid;
-        grid-template-columns: 235px 365px;
+        grid-template-columns: 184px 365px 1fr;
+        grid-column-gap: 50px;
+        padding-top: var(--spacing-padding);
     }
 
     footer{
         display: grid;
-        grid-template-columns: 235px 370px;
-        grid-column-gap: 45px
+        grid-template-columns: 184px 365px 1fr;
+        grid-column-gap: 50px;
     }
 
     .license, .philosophy{
@@ -877,11 +888,20 @@ li {
     }
 
     .bio{
-        padding-top: var(--spacing-padding);
+        padding-top: 0px;
+        margin-bottom: 5px;
     }
 
     .links, .work-availability, .bio-image{
         grid-column-start: 2;
+    }
+
+    .work-availability, .links{
+        margin-top: 30px;
+    }
+
+    .bio-image{
+        grid-row-start: 5;
     }
 
 
@@ -1026,11 +1046,11 @@ li {
 
     .links{
         grid-column-start: 3;
-        margin-top: 22px;
+        margin-top: 0px;
     }
     .work-availability{
         grid-column-start: 3;
-        margin-top: 28px;
+        margin-top: 0px;
     }
     .bio-image{
         grid-row-start: 1;
