@@ -207,6 +207,10 @@ header{
     line-height: 24px;
 }
 
+.project-container-wrapper a{
+    text-decoration: none;
+}
+
 .project-description{
     max-width: 355px;
 }
