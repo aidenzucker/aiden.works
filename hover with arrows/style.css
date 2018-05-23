@@ -186,9 +186,7 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
 
-    border: 1px solid lightgrey;
-    border-left: 0px;
-    border-right: 0px;
+    border-bottom: 1px solid lightgrey;
     color: black;
 
     display: block;
@@ -231,7 +229,6 @@ header{
 
 .landing-image{
     padding-top: 25px;
-    z-index: 101;
 }
 
 .landing-image video, .landing-image img{
@@ -931,16 +928,16 @@ li {
         /*transform: rotate(-90deg);*/
         position: absolute;
         left: 40px;
-        opacity: 0;
+        /*opacity: 0;*/
         margin-top: 5px;
         margin-left: -55px;
-        transition: opacity .5s, margin-left .5s;
+        transition: opacity .5s ease, margin-left .5s ease;
 
         /*transition: left .5s ease;*/
     }
 
     .project-container:hover > .landing-text-container #project-arrow{
-        /*opacity: 1;*/
+        opacity: 1;
         margin-left: 0px;
     }
 
@@ -959,32 +956,21 @@ li {
 
     .project-container{
         height: 91px;
-        transition: padding-top .3s, padding-bottom .3s;
-        margin-top: -1px;
+        transition: padding .5s ease;
     }
 
-    .project-container-wrapper:hover {
-         background-color: #F5F5F5;
-    }
-
-    .project-container:hover{
-        padding-top: 45px;
-        padding-bottom: 35px;
-        padding-left: var(--spacing-padding);
-        padding-right: var(--spacing-padding);
-        margin-left: 0px;
-        margin-right: 0px;
-
-        /*switch margins to padding*/
-    }
-
-    #first-project{
-        border-top: 0px;
+    .project-container:hover {
+         padding: 50px;
+         padding-bottom: 40px;
+         padding-left: 30px;
+         padding-right: 0px;
+         /*background-color: #F5F5F5;*/
+         
+         /*background-color: #F0F0F0;*/
     }
 
     #first-project:hover{
-        border-top: 1px solid lightgrey;
-        margin-top: -1px;
+        /*border-top: 1px solid lightgrey;*/
     }
     
     .landing-image{
