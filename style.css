@@ -1172,6 +1172,10 @@ li {
         /*grid-row-start: 1;*/
     }
 
+    #misc-image{
+        max-width: 350px;
+    }
+
 }
 
 /*turns landing image on for project pages*/
@@ -1181,6 +1185,14 @@ li {
     padding-left: 0px;
     padding-right: 0px;
     background-color: white;
+
+    /*so the hover state isn't seen*/
+    padding-top: 45px;
+    padding-bottom: 35px;
+    padding-left: var(--spacing-padding);
+    padding-right: var(--spacing-padding);
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
