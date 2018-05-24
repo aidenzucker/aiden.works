@@ -1091,11 +1091,11 @@ li {
 
     .links{
         grid-column-start: 3;
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .work-availability{
         grid-column-start: 3;
-        margin-top: 0px;
+        margin-top: 25px;
     }
     .bio-image{
         grid-row-start: 1;
