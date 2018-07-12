@@ -290,17 +290,19 @@ p a{
     padding-right: var(--spacing-padding);
 }
 
+.top{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
 footer {
     background-color: #F5F5F5;
 
     padding-left: var(--spacing-padding);
     padding-right: var(--spacing-padding);
-    margin-top: var(--spacing-padding);
-    padding-top: var(--spacing-padding);
+    margin-top: 40px;
+    padding-top: 40px;
     padding-bottom: 15px;
-}
-
-footer {
     color: var(--grey-color);
     font-size: 16px;
     line-height: 24px;
@@ -401,7 +403,7 @@ h4{
 }
 
 .project-story h3{
-    padding-top: var(--spacing-padding);
+    margin-top: 80px;
 }
 
 .project-story p{
@@ -452,6 +454,7 @@ h3{
 
 .project-story video{
     max-width: 100%;
+    margin-top: var(--spacing-padding);
 }
 
 .video-container{
@@ -807,7 +810,7 @@ li {
 
     
      .case-study h6{
-        top: 43px;
+        top: 3px;
         left: -30px;
         bottom: 0px;
     }
@@ -897,6 +900,9 @@ li {
         display: grid;
         grid-template-columns: 184px 365px 1fr;
         grid-column-gap: 50px;
+
+        margin-top: var(--spacing-padding);
+        padding-top: var(--spacing-padding);
     }
 
     .license, .philosophy{
@@ -1139,7 +1145,7 @@ li {
     }
 
     #full-width-image{
-        margin-left: -221px;
+        margin-left: -232px;
         max-width: 91vw;
     }
 
@@ -1163,7 +1169,7 @@ li {
 
     .project-story h3{
         /*grid-column-start: 1;*/
-        margin-top: 3px;
+        /*margin-top: 3px;*/
         margin-bottom: 10px;
     }
 
