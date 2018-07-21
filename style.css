@@ -296,15 +296,13 @@ p a{
     margin-top: 40px;
 }
 
-.w-column-1{
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.w-info{
+.w-column{
     list-style-type: none;
     padding: 0px;
     margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 365px;
 }
 
 .w-date{
@@ -347,6 +345,17 @@ footer a{
      color: var(--grey-color);
      border-bottom: 1px solid var(--grey-color);
      text-decoration: none;
+}
+
+.workshops{
+    margin-left: var(--spacing-padding);
+    margin-right: var(--spacing-padding);
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: -20px;
+
+    border-top: 1px solid lightgrey;
+
 }
 
 .philosophy{
@@ -952,6 +961,15 @@ li {
         padding-top: var(--spacing-padding);
     }
 
+    .workshops{
+        display: grid;
+        grid-template-columns: 184px 365px 1fr;
+        grid-column-gap: 50px;
+
+        margin-top: var(--spacing-padding);
+        padding-top: var(--spacing-padding);
+    }
+
     .license, .philosophy{
         grid-column-start: 2;
     }
@@ -1123,7 +1141,14 @@ li {
     footer{
         display: grid;
         grid-template-columns: 184px 370px 1fr;
-        grid-column-gap: 45px
+        grid-column-gap: 45px;
+    }
+
+    .workshops{
+        display: grid;
+        grid-template-columns: 184px 365px 1fr;
+        grid-column-gap: 50px;
+        padding-top: var(--spacing-padding);
     }
 
     .license, .philosophy{
