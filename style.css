@@ -122,6 +122,15 @@ header{
     display: inline-block;
 }
 
+.work-link{
+    /*padding-left: 3px;*/
+}
+
+.resume-link{
+    margin-right:0px;
+    padding-left: 3px;
+}
+
 .menu a{
     text-decoration: none;
     border-bottom: 1px solid var(--grey-color);
@@ -415,7 +424,7 @@ h4{
 
 .links p, .work-availability p{
     margin-bottom: 0px; 
-/*    margin-top: 7px;*/
+    margin-top: 2px;
 }
 
 .links .info-title, .work-availability .info-title{
@@ -1000,6 +1009,10 @@ li {
 
 /*Images in same row*/
 @media only screen  and (min-width : 950px) {
+
+    .landing-image video, .landing-image img{
+        width: 480px;
+    }
 
     #project-arrow{
         width: 14px;
