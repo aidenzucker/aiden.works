@@ -221,6 +221,10 @@ header{
     border-top: 0px;
 }
 
+#teaching .info-title{
+    width: 100%;
+}
+
 .serendipity-vid video{
     max-width: calc(100vw - 80px) !important;
     margin-bottom: 40px;
@@ -792,12 +796,20 @@ li {
         max-width: 100%;
     }
 
+#w-column-2{
+    grid-column-start: 2;
+}
+
 
 
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
     :root {
         --spacing-padding: 40px;
+    }
+
+    #teaching .info-title{
+        width: 170px;
     }
 
     /*Shows gifs for mobile, mp4s for desktop (loads faster)*/
@@ -1283,7 +1295,13 @@ li {
     #misc-image{
         max-width: 350px;
     }
+}
 
+/*for workshops*/
+@media only screen  and (min-width : 1093px) {
+    #w-column-2{
+        grid-column-start: 3;
+    }
 }
 
 /*turns landing image on for project pages*/
