@@ -368,12 +368,31 @@ footer a{
      text-decoration: none;
 }
 
-.workshops{
+.workshops, .skillshare{
     margin-left: var(--spacing-padding);
     margin-right: var(--spacing-padding);
     margin-top: 40px;
     margin-bottom: -20px;
+    padding: var(--spacing-padding);
+    padding-bottom: 0px;
+}
 
+.skillshare{
+    border-top: 1px solid lightgrey;
+    padding: 0px;
+    padding-top: var(--spacing-padding);
+    margin: var(--spacing-padding) !important;
+}
+
+.skillshare ul{
+    margin-bottom: 0px;
+}
+
+.skillshare-video{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: var(--spacing-padding);
 }
 
 .philosophy{
@@ -1011,7 +1030,7 @@ li {
         padding-top: var(--spacing-padding);
     }
 
-    .workshops{
+    .workshops, .skillshare{
         display: grid;
         grid-template-columns: 184px 365px 365px;
         grid-column-gap: 50px;
@@ -1198,7 +1217,7 @@ li {
         grid-column-gap: 45px;
     }
 
-    .workshops{
+    .workshops, .skillshare{
         display: grid;
         grid-template-columns: 184px 365px 365px;
         grid-column-gap: 50px;
