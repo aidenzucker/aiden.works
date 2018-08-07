@@ -138,6 +138,8 @@ header{
     margin-right: 48px;
     color: var(--grey-color);
     opacity: 1;
+    display: inline-block;
+    line-height: 26px;
 }
 
 .menu a img{
@@ -370,10 +372,7 @@ footer a{
     margin-left: var(--spacing-padding);
     margin-right: var(--spacing-padding);
     margin-top: 40px;
-    padding-top: 40px;
     margin-bottom: -20px;
-
-    border-top: 1px solid lightgrey;
 
 }
 
@@ -801,6 +800,28 @@ li {
 }
 
 
+/*about page button*/
+
+.btn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 7px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#resume{
+    margin-top: 25px;
+}
+
 
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
@@ -992,11 +1013,11 @@ li {
 
     .workshops{
         display: grid;
-        grid-template-columns: 184px 365px 1fr;
+        grid-template-columns: 184px 365px 365px;
         grid-column-gap: 50px;
 
         margin-top: var(--spacing-padding);
-        padding-top: var(--spacing-padding);
+        margin: 0px;
     }
 
     .license, .philosophy{
@@ -1179,9 +1200,8 @@ li {
 
     .workshops{
         display: grid;
-        grid-template-columns: 184px 365px 1fr;
+        grid-template-columns: 184px 365px 365px;
         grid-column-gap: 50px;
-        padding-top: var(--spacing-padding);
     }
 
     .license, .philosophy{
