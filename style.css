@@ -39,6 +39,7 @@
 :root {
   --grey-color: #8C8C8C;
   --spacing-padding: 20px;
+  --under-construction-padding: 60px;
 }
 
 html{
@@ -53,7 +54,7 @@ html{
 }
 
 html a{
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 html a:hover{
@@ -66,6 +67,69 @@ body{
 
 
 
+/*
+///////// NEW LANDING //////////
+*/
+
+
+
+
+
+.aiden-dot-works{
+    font-size: 24px;
+    opacity: .3;
+    padding: var(--under-construction-padding);
+    padding-bottom: 0px;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 140%;
+    font-weight: 300;
+    padding: var(--under-construction-padding);
+    padding-left: 55px;
+    margin: 0px;
+}
+
+.intro-blurb{
+    font-size: 24px;
+    padding: var(--under-construction-padding);
+    padding-top: 0px;
+    width: 600px;
+    line-height: 160%;
+    margin: 0px;
+}
+
+.bio-links{
+    font-size: 24px;
+    list-style-type: none;
+    padding: var(--under-construction-padding);
+    padding-top: 0px;
+}
+
+.bio-links a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    /*display: block;*/
+    width: 100%;
+    line-height: 160%;
+}
+
+.bio-links a:hover{
+    opacity: .5;
+}
+
+.old-site a{
+    font-size: 24px;
+
+    opacity: .3;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+
+    margin: var(--under-construction-padding);
+}
 
 /*
 ///////// HEADER //////////
