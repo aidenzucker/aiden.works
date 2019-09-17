@@ -95,7 +95,7 @@ h1{
     font-size: 24px;
     padding: var(--under-construction-padding);
     padding-top: 0px;
-    width: 600px;
+    max-width: 600px;
     line-height: 160%;
     margin: 0px;
 }
@@ -130,6 +130,43 @@ h1{
 
     margin: var(--under-construction-padding);
 }
+
+.old-site{
+    margin-bottom: 60px;
+}
+
+
+@media only screen  and (max-width : 500px) {
+	:root {
+		--under-construction-padding: 30px;
+	}
+	h1{
+		/*color: red;	*/
+		padding-left: var(--under-construction-padding);
+		font-size: 60px;
+	}
+	.bio-links{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	.intro-blurb{
+		font-size: 16px;
+	}
+	.aiden-dot-works{
+		font-size: 16px;
+		line-height: 140%
+	}
+	.old-site a{
+		font-size: 16px;
+	}
+
+
+}
+
+
+
+
 
 /*
 ///////// HEADER //////////
