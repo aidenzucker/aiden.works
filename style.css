@@ -83,7 +83,7 @@ body{
 }
 
 h1{
-    font-size: 72px;
+    font-size: 64px;
     line-height: 140%;
     font-weight: 300;
     padding: var(--under-construction-padding);
@@ -95,7 +95,7 @@ h1{
     font-size: 24px;
     padding: var(--under-construction-padding);
     padding-top: 0px;
-    max-width: 600px;
+    max-width: 692px;
     line-height: 160%;
     margin: 0px;
 }
