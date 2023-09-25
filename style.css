@@ -82,15 +82,6 @@ body{
     padding-bottom: 0px;
 }
 
-h1{
-    font-size: 64px;
-    line-height: 140%;
-    font-weight: 300;
-    padding: var(--under-construction-padding);
-    padding-left: 55px;
-    margin: 0px;
-}
-
 .intro-blurb{
     font-size: 18px;
     line-height: 140%;
@@ -107,7 +98,7 @@ h1{
     font-size: 18px;
     list-style-type: none;
 
-    border: solid red;
+    /* border: solid red; */
     position: absolute;
     bottom: 44px;
     left: 0;
@@ -131,6 +122,14 @@ h1{
     opacity: .5;
 }
 
+#three-links li{
+    margin-bottom: 20px;
+}
+
+#three-links{
+    bottom: 20px;
+}
+
 .old-site a{
     font-size: 24px;
 
@@ -141,7 +140,7 @@ h1{
 }
 
 .hand-container{
-    border: solid blue;
+    /* border: solid blue; */
     
     position: absolute;
     top:0;
@@ -157,15 +156,18 @@ h1{
     height: 500px;
 }
 
-.hand-container h1{
+.hand-header{
     font-size: 18px;
     font-weight: unset;
-    padding: 0;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
 }
 
 .hand-illo img{
     position: absolute;
-    top:0;
+    top:88px;
     bottom: 0;
     left: 0;
     right: 94px;
@@ -175,23 +177,27 @@ h1{
 }
 
 .hand-description{
-    border: red solid;
+    /* border: red solid; */
     font-size: 15px;
-    line-height: 140%;
-    width: 200px;
+    line-height: 130%;
+    width: 188px;
 
     margin: auto;
+
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+}
+
+.hand-description p{
+    margin-bottom: 10px;
 }
 
 
 @media only screen  and (max-width : 500px) {
 	:root {
 		--under-construction-padding: 30px;
-	}
-	h1{
-		/*color: red;	*/
-		padding-left: var(--under-construction-padding);
-		font-size: 60px;
 	}
 	}
 	.aiden-dot-works{
