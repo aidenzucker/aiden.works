@@ -57,6 +57,10 @@ html a{
     transition: opacity 0.2s ease;
 }
 
+.hand-container a{
+    transition: none;
+}
+
 html a:hover{
     /*opacity: .5;*/
 }
