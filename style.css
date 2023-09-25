@@ -92,19 +92,21 @@ h1{
 }
 
 .intro-blurb{
-    font-size: 24px;
-    padding: var(--under-construction-padding);
-    padding-top: 0px;
-    max-width: 740px;
-    line-height: 160%;
-    margin: 0px;
+    font-size: 18px;
+    line-height: 140%;
+    width: 140px;
+    text-align: center;
+
+    border: solid green;
+    
+    margin: auto;
 }
 
 .bio-links{
-    font-size: 24px;
+    font-size: 18px;
     list-style-type: none;
-    padding: var(--under-construction-padding);
-    padding-top: 0px;
+
+    border: solid red;
 }
 
 .bio-links a{
@@ -127,12 +129,32 @@ h1{
     text-decoration: none;
     border-bottom: 1px solid black;
     color: black;
-
-    margin: var(--under-construction-padding);
 }
 
-.old-site{
-    margin-bottom: 60px;
+.hand-container{
+    border: solid blue;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    text-align: center;
+}
+
+
+.hand-illo img{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 85px;
+    
+    margin: auto;
+    pointer-events: none;
 }
 
 
@@ -145,13 +167,6 @@ h1{
 		padding-left: var(--under-construction-padding);
 		font-size: 60px;
 	}
-	.bio-links{
-		margin-top: 20px;
-		margin-bottom: 20px;
-		font-size: 19px;
-	}
-	.intro-blurb{
-		font-size: 19px;
 	}
 	.aiden-dot-works{
 		font-size: 19px;
