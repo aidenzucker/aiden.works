@@ -106,10 +106,12 @@ h1{
 .bio-links{
     font-size: 18px;
     list-style-type: none;
-    margin-top: 166px;
 
-
-    /* border: solid red; */
+    border: solid red;
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    right: 0;
 }
 
 .bio-links a{
@@ -139,7 +141,7 @@ h1{
 }
 
 .hand-container{
-    /* border: solid blue; */
+    border: solid blue;
     
     position: absolute;
     top:0;
@@ -155,16 +157,30 @@ h1{
     height: 500px;
 }
 
+.hand-container h1{
+    font-size: 18px;
+    font-weight: unset;
+    padding: 0;
+}
 
 .hand-illo img{
     position: absolute;
     top:0;
     bottom: 0;
     left: 0;
-    right: 85px;
+    right: 94px;
     
     margin: auto;
     pointer-events: none;
+}
+
+.hand-description{
+    border: red solid;
+    font-size: 15px;
+    line-height: 140%;
+    width: 200px;
+
+    margin: auto;
 }
 
 
