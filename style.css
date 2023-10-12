@@ -92,9 +92,7 @@ body{
     width: 140px;
     text-align: center;
 
-    /* border: solid green; */
-    
-    margin: auto;
+    margin-bottom: 160px;
     margin-top: 120px;
 }
 
@@ -103,10 +101,10 @@ body{
     list-style-type: none;
 
     /* border: solid red; */
-    position: absolute;
+    /* position: absolute;
     bottom: 44px;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 .bio-links a{
@@ -127,11 +125,14 @@ body{
 }
 
 #three-links li{
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 #three-links{
-    bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
 }
 
 .old-site a{
@@ -145,6 +146,8 @@ body{
 
 .hand-container{
     /* border: solid blue; */
+
+    overflow: clip;
     
     position: absolute;
     top:0;
@@ -156,28 +159,39 @@ body{
 
     text-align: center;
 
-    width: 500px;
-    height: 500px;
+    width: 99vw;
+    height: 99vh;
+}
+
+.text-container{
+    /* border: solid green; */
+
+    height: 470px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 .hand-header{
     font-size: 18px;
     font-weight: unset;
-    position: absolute;
+    /* position: absolute;
     top: 14px;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 .hand-illo img{
     position: absolute;
-    top:88px;
-    bottom: 0;
-    left: 0;
-    right: 94px;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
     
-    margin: auto;
     pointer-events: none;
+
+    /* border: solid red; */
 }
 
 .hand-description{
@@ -186,12 +200,12 @@ body{
     line-height: 130%;
     width: 195px;
 
-    margin: auto;
+    /* margin: auto;
 
     position: absolute;
     top: 64px;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 .hand-description p{
