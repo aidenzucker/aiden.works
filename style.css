@@ -1525,7 +1525,8 @@ li {
     text-decoration: none;
     border-bottom: 1px solid var(--grey-color);
     color: var(--grey-color);
-    width: fit-content;  /* Make underline only as wide as the text */
+    width: fit-content;
+    font-size: 14px;
 }
 
 .external-arrow {
@@ -1535,6 +1536,62 @@ li {
 }
 
 .external-link:hover {
+    opacity: 0.5;
+}
+
+.expandable-link {
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--grey-color);
+    font-family: inherit;
+    font-size: 14px;
+    border-bottom: 1px solid var(--grey-color);
+    width: fit-content;
+    cursor: pointer;
+}
+
+.down-arrow {
+    width: 11px;
+    margin-left: 4px;
+    transform: rotate(90deg);  /* Points down by default */
+    transition: transform 0.3s ease;
+}
+
+.down-arrow.active {
+    transform: rotate(-180deg);  /* Points up when active */
+}
+
+.expandable-content {
+    display: none;
+    margin: 16px 0 32px;
+    color: black;
+    font-size: 16px;
+}
+
+.expandable-content.active {
+    display: block;
+}
+
+.expandable-content ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.expandable-content li {
+    margin-bottom: 8px;
+}
+
+.expandable-content a {
+    color: var(--grey-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--grey-color);
+}
+
+.expandable-content a:hover {
     opacity: 0.5;
 }
 
