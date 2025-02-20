@@ -255,10 +255,6 @@ body{
 
 header{
     text-align: left;
-    /* padding: var(--spacing-padding);
-    padding-bottom: 0px;
-    padding-bottom: 15px;
-    padding-top: 30px; */
 }
 
 .header-wrapper{
@@ -293,6 +289,7 @@ header{
     vertical-align: top;
     /* padding-bottom: var(--spacing-padding); */
     display: inline-block;
+    margin-left: 32px;  /* Add consistent spacing between name and menu */
 }
 
 
