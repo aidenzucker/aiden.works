@@ -605,10 +605,10 @@ h4{
 }
 
 
-.links p a{
+/* .links p a{
     margin-right: 20px;
     margin-bottom: 8px;
-}
+} */
 
 .links p, .work-availability p{
     margin-bottom: 0px; 
@@ -1557,12 +1557,12 @@ li {
 .down-arrow {
     width: 11px;
     margin-left: 4px;
-    transform: rotate(90deg);  /* Points down by default */
+    transform: rotate(0deg);  /* Points down by default */
     transition: transform 0.3s ease;
 }
 
 .down-arrow.active {
-    transform: rotate(-180deg);  /* Points up when active */
+    transform: rotate(180deg);  /* Points up when active */
 }
 
 .expandable-content {
