@@ -223,19 +223,16 @@ body{
 
 
 @media only screen  and (max-width : 500px) {
-	:root {
-		--under-construction-padding: 30px;
-	}
-	}
-	.aiden-dot-works{
-		font-size: 16px;
-		line-height: 140%
-	}
-	.old-site a{
-		font-size: 16px;
-	}
-
-
+    :root {
+        --under-construction-padding: 30px;
+    }
+}
+.aiden-dot-works{
+    font-size: 16px;
+    line-height: 140%
+}
+.old-site a{
+    font-size: 16px;
 }
 
 
@@ -298,9 +295,6 @@ header{
     display: inline-block;
 }
 
-.work-link{
-    /*padding-left: 3px;*/
-}
 
 .menu a{
     text-decoration: none;
@@ -340,7 +334,6 @@ header{
 
 #down-arrow{
     /*transition: top .5s ease;*/
-    x-transition: all 1s ease-in-out;
     animation: bounce 1s infinite;
     top: 0;
 }
@@ -712,10 +705,6 @@ h3{
     max-width: 100%;
 }
 
-.video-container{
-   
-}
-
 /*FOR TRAVEL PALS VIDEO*/
 .video-container{
     position: relative;
@@ -791,10 +780,6 @@ iframe{
 .github-flow{
     display: block;
     margin-top: 10px;
-}
-
-.github-flow img{
-
 }
 
 .github-flow p{
@@ -1108,7 +1093,6 @@ li {
         max-width: 360px;
     }
 
-    
      .case-study h6{
         top: 3px;
         left: -30px;
@@ -1216,10 +1200,6 @@ li {
 
     .license, .philosophy{
         grid-column-start: 2;
-    }
-
-    .updated {
-        /*font-size: 14px !important;*/
     }
 
     .bio{
@@ -1371,7 +1351,7 @@ li {
         grid-gap: 32px;
     }
 
-    .project-title, {
+    .project-title {
         width: 191px;
         margin-right: var(--spacing-padding);
     }
@@ -1436,10 +1416,6 @@ li {
 
     .info-title{
         padding-top: 0px;
-    }
-
-    .w-column-1{
-
     }
 
     .bio-image, .links, .work-availability{
