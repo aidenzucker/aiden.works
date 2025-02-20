@@ -487,7 +487,7 @@ p a{
     margin-top: 5px;
     font-size: 16px;
     line-height: 24px;
-    max-width: 365px;
+    max-width: 400px;
 }
 
 .w-date{
@@ -1171,14 +1171,14 @@ li {
 
     .bio-content{
         display: grid;
-        grid-template-columns: 64px 365px 1fr;
+        grid-template-columns: 64px 400px 1fr;
         grid-column-gap: 32px;
         padding-top: var(--spacing-padding);
     }
 
     footer{
         display: grid;
-        grid-template-columns: 184px 365px 1fr;
+        grid-template-columns: 184px 400px 1fr;
         grid-column-gap: 50px;
 
         margin-top: var(--spacing-padding);
@@ -1187,7 +1187,7 @@ li {
 
     .workshops, .skillshare{
         display: grid;
-        grid-template-columns: 184px 365px 365px;
+        grid-template-columns: 184px 400px 400px;
         grid-column-gap: 50px;
 
         margin-top: var(--spacing-padding);
@@ -1359,7 +1359,7 @@ li {
 
     .bio-content{
         display: grid;
-        grid-template-columns: 64px 365px 1fr;
+        grid-template-columns: 64px 400px 1fr;
         grid-column-gap: 32px;
         padding-top: var(--spacing-padding);
     }
@@ -1372,7 +1372,7 @@ li {
 
     .workshops, .skillshare{
         display: grid;
-        grid-template-columns: 184px 365px 365px;
+        grid-template-columns: 184px 400px 400px;
         grid-column-gap: 50px;
     }
 
@@ -1415,7 +1415,7 @@ li {
     }
 
     .bio-image, .links, .work-availability{
-        max-width: 365px;
+        max-width: 400px;
         /*margin-top: -10px;*/
     }
 
