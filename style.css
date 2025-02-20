@@ -38,7 +38,7 @@
 /*site-wide variables*/
 :root {
   --grey-color: #8C8C8C;
-  --spacing-padding: 20px;
+  --spacing-padding: 16px;
   --under-construction-padding: 60px;
 }
 
@@ -255,10 +255,10 @@ body{
 
 header{
     text-align: left;
-    padding: var(--spacing-padding);
+    /* padding: var(--spacing-padding);
     padding-bottom: 0px;
     padding-bottom: 15px;
-    padding-top: 30px;
+    padding-top: 30px; */
 }
 
 .header-wrapper{
@@ -291,7 +291,7 @@ header{
 
 .menu{
     vertical-align: top;
-    padding-bottom: var(--spacing-padding);
+    /* padding-bottom: var(--spacing-padding); */
     display: inline-block;
 }
 
@@ -371,7 +371,7 @@ header{
     padding-top: 34px;
     padding-bottom: 24px;
 
-    margin: var(--spacing-padding);
+    margin: 32px;
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -1046,9 +1046,9 @@ li {
      }
 
       header{
-        padding: var(--spacing-padding);
-        padding-bottom: 0px;
-        padding-top: 31px;
+        padding: 32px;
+        padding-top: 28px;
+        padding-bottom: 28px;
     }
 
     .info-title{
