@@ -327,9 +327,8 @@ header{
     opacity: 1;
 }
 
-#selected-menu-item:hover > #down-arrow{
-    position: relative;
-    top: 4px;
+#unselected-menu-item{
+    border-bottom: 0px;
 }
 
 #down-arrow{
