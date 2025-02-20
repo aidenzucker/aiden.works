@@ -47,7 +47,7 @@ html{
     font-style: normal;
 
     font-size: 16px;
-    line-height: 120%;
+    line-height: 140%;
 
     -webkit-font-smoothing: antialiased;
      /* animation: 1s ease-in 0s 1 fadeIn; */
@@ -197,7 +197,7 @@ body{
 .hand-description{
     /* border: red solid; */
     font-size: 15px;
-    line-height: 130%;
+    line-height: 140%;
     width: 195px;
 
     /* margin: auto;
@@ -301,7 +301,6 @@ header{
     color: var(--grey-color);
     opacity: 1;
     display: inline-block;
-    /* line-height: 26px; */
 }
 
 .about-link {
@@ -419,7 +418,6 @@ header{
     /*line-height: 27px;*/
     /*margin-bottom: calc(var(--spacing-padding)/2);*/
     margin-bottom: 4px;
-    /* line-height: 25px; */
 }
 
 .project-tags{
@@ -494,9 +492,7 @@ p a{
     /*color: grey;*/
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: .5px;
-    /*line-height: 10px;*/
-    
+    letter-spacing: .5px;    
 }
 
 .bio-content{
