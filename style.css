@@ -47,7 +47,7 @@ html{
     font-style: normal;
 
     font-size: 16px;
-    line-height: 140%;
+    line-height: 130%;
 
     -webkit-font-smoothing: antialiased;
      /* animation: 1s ease-in 0s 1 fadeIn; */
@@ -88,7 +88,6 @@ body{
 
 .intro-blurb{
     font-size: 18px;
-    line-height: 140%;
     width: 140px;
     text-align: center;
 
@@ -113,7 +112,6 @@ body{
     color: black;
     /*display: block;*/
     width: 100%;
-    line-height: 160%;
 }
 
 .bio-links li{
@@ -197,7 +195,6 @@ body{
 .hand-description{
     /* border: red solid; */
     font-size: 15px;
-    line-height: 140%;
     width: 195px;
 
     /* margin: auto;
@@ -229,7 +226,6 @@ body{
 }
 .aiden-dot-works{
     font-size: 16px;
-    line-height: 140%
 }
 .old-site a{
     font-size: 16px;
@@ -559,13 +555,6 @@ footer a{
     font-style: italic;
 }
 
-.bio-content p{
-    /*font-size: 16px;
-    line-height: 30px;*/
-    font-size: 16px;
-    /* line-height: 24px; */
-}
-
 .bio-image{
     line-height: 0px;
 }
@@ -769,30 +758,7 @@ iframe{
     text-indent: -0.3em;
 }
 
-.github-flow{
-    display: block;
-    margin-top: 10px;
-}
 
-.github-flow p{
-    
-    margin-bottom: 5px !important;
-    color: var(--grey-color);
-    font-size: 16px;
-    line-height: 20px;
-}
-
-#cap2{
-    grid-column-start: 3 !important;
-}
-
-#cap3{
-    grid-column-start: 5 !important;
-}
-
-#gh-arrow{
-    transform: rotate(90deg);
-}
 
 
 
