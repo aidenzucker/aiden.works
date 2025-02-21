@@ -1535,5 +1535,17 @@ li {
     margin-right: 0px;
 }
 
+@media only screen and (max-width: 621px) {
+    .desktop-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 622px) {
+    #mobile-only {
+        display: none;
+    }
+}
+
 
 
