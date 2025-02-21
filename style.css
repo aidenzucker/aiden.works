@@ -1260,7 +1260,7 @@ li {
     .landing-image{
         position: absolute;
         width: calc(100vw - 730px);
-        right: var(--spacing-padding);
+        left: 320px;
 
         top: 0; 
         bottom: 0; 
