@@ -997,7 +997,7 @@ li {
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
     :root {
-        --spacing-padding: 40px;
+        --spacing-padding: 32px;
     }
 
     #teaching .info-title{
@@ -1521,7 +1521,7 @@ li {
 
 .external-link {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     text-decoration: none;
     color: var(--grey-color);
     width: fit-content;
@@ -1541,7 +1541,7 @@ li {
 
 .expandable-link {
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     text-decoration: none;
     border: none;
     background: none;
@@ -1549,8 +1549,8 @@ li {
     color: var(--grey-color);
     font-family: inherit;
     font-size: 16px;
-    width: fit-content;
     cursor: pointer;
+    text-align: left;
 }
 
 .down-arrow {
@@ -1566,13 +1566,13 @@ li {
 
 .expandable-content {
     display: none;
-    margin: 16px 0 32px;
     color: black;
     font-size: 16px;
 }
 
 .expandable-content.active {
     display: block;
+    width: 365px;
 }
 
 .expandable-content ol {
