@@ -263,7 +263,7 @@ header{
     color: black;
     display: inline-block;
 
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .role{
@@ -393,7 +393,7 @@ header{
 }
 
 .project-title {
-    font-size: 24px;
+    /* font-size: 24px; */
     margin-bottom: 0;
     display: block;
 }
@@ -959,6 +959,11 @@ li {
     margin-top: 25px;
 }
 
+header{
+    padding: 32px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
 
 /*When there's enough space for 2 column*/
 @media only screen  and (min-width : 622px) {
@@ -1003,12 +1008,6 @@ li {
     .role{
         padding-bottom: 35px;
      }
-
-      header{
-        padding: 32px;
-        padding-top: 28px;
-        padding-bottom: 28px;
-    }
 
     .info-title{
         margin-top: 0px;
