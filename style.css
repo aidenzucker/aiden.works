@@ -75,7 +75,10 @@ body{
 ///////// NEW LANDING //////////
 */
 
-
+.landing-image video {
+    pointer-events: none;
+  }
+  
 
 
 
